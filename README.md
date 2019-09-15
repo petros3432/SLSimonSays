@@ -56,10 +56,19 @@ generated URL. It generates the first URL and generates a new one with pressing 
 
 
 * First of all paste the Linked object in-world. Instantly the object will communicate with you through chat and will provide a URL.
-
 IF YOU WANT TO JUST PLAY THE BOARD GAME EXCLUSIVELY  in SECOND LIFE then proceed to ignore this URL. You won't have to deal with it again in the future except if you delete the object and then paste it again.
 
-* After that, proceed to click the START button. Immediately a color sequence will be displayed through the 4 squared colored buttons. The colors of the buttons are: RED, GREEN, BLUE and YELLOW. When a button has to display a color of the wanted sequence it would flash(it will get brighter) indicating the wanted color sequence. An example of color sequence is this: GREEN, BLUE, BLUE, RED. If user's guess of the color sequence is correct then the color sequence can be modified like this: GREEN, BLUE, BLUE, RED, GREEN.
+
+* After that, proceed to click the START button. Immediately a color sequence will be displayed through the 4 squared colored buttons. The colors of the buttons are: RED, GREEN, BLUE and YELLOW. When a button has to display a color of the wanted sequence it would flash(it will get brighter) indicating the wanted color sequence. An example of color sequence is this
+
+```
+GREEN, BLUE, BLUE, RED 
+```
+If user's guess of the color sequence is correct then the color sequence can be modified like this
+
+```
+GREEN, BLUE, BLUE, RED, GREEN.
+```
 
 * Then, the user has to import his guess of the displayed color sequence. In-world Second Life this is possible with touching the correct color buttons in the correct order. When the user touches the last color button of his guessed color sequence, if it's correct the next color sequence will start automatically. Meanwhile, the game will communicate with the user through chat informing him that his guess was indeed correct, displaying the "CORRECT" message.
 
@@ -76,7 +85,12 @@ IF YOU WANT TO JUST PLAY THE BOARD GAME EXCLUSIVELY  in SECOND LIFE then proceed
 
 * First of all paste the Linked object in-world. Instantly the object will communicate with you through chat and will provide a URL.
 
-* Click the URL that is being displayed in chat. It should look something like this e.g "http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0". It will open a window in Second Life with a QR code.
+* Click the URL that is being displayed in chat. It should look something like this
+
+```
+e.g http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0 
+```
+It will open a window in Second Life with a QR code.
 
 **Smartphone Web Browser**
 
@@ -94,14 +108,18 @@ IF YOU WANT TO JUST PLAY THE BOARD GAME EXCLUSIVELY  in SECOND LIFE then proceed
 
 **Any other kind of Web Browser**
 
-* Copy the generated URL in Second Life. The URL looks like this e.g "http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0".
-
+* Copy the generated URL in Second Life. The URL looks like this 
+```
+e.g http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0
+```
 * The desired Web Browser should be opened.
        
 * Navigate to this page "http://siwonsimon.000webhostapp.com/siwonsimon.html?"
 
-* Paste the generated URL after the question mark of the above link and press enter. It should look something like this e.g "http://siwonsimon.000webhostapp.com/siwonsimon.html?http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0"
-
+* Paste the generated URL after the question mark of the above link and press enter. It should look something like this 
+```
+e.g http://siwonsimon.000webhostapp.com/siwonsimon.html?http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0
+```
 * To initialize a new game all the user has to do is to press START GAME into Web Browser. Note that with this feature the smarthphone can be used not only with the utility of a controller that goes with the second life, but also totally independently.
 
 * In this state the web browser can be operating wherever the user desires to if only it utilizes with a stable internet connection.
@@ -112,7 +130,7 @@ IF YOU WANT TO JUST PLAY THE BOARD GAME EXCLUSIVELY  in SECOND LIFE then proceed
 
 * When the user wants to terminate the game AND the URL, it is advised to release the operating URL using HARD RESET. This will release the URL and the former communication with every browser won't be operational.
 
-* To generate a new URL the user has to press the triangle button( Δ ) at the bottom-center of the tablet in Second Life. This will generate a new URL and it will display it through in-game chat, like before. From there, the previous steps in sector 2.1 and 2.2 are applicable.
+* To generate a new URL the user has to press the triangle button( Δ ) at the bottom-center of the tablet in Second Life. This will generate a new URL and it will display it through in-game chat, like before. From there, the previous steps in sectors of **Smartphone Web Browser** and  **Any other kind of Web Browser** are applicable.
 
 
 ## IMPORTANT
