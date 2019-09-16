@@ -47,7 +47,7 @@ generated URL. It generates the first URL and generates a new one with pressing 
 
 **1 INFO cylindrical button which doesn't communicate with any other component of the project. It is displayed with an "i" symbol on top of it.**
 >CONTAINS
-- 1 script "INFO" that provides useful informatin about the project and a "how to use it" guide.
+- 1 script "INFO" that provides useful information about the project and a "how to use it" guide.
 - 1 custom made texture with "i" on it.
 
 ## INSTALLATION
@@ -175,7 +175,7 @@ e.g http://siwonsimon.000webhostapp.com/siwonsimon.html?http://sim10186.agni.lin
 ### URL RELEASING
 
   It is advised that URLs should be released before a new one is generated or after the termination of gameplay time. That's because URLs tend to exist even after the game is closed and the object has been deleted. They also possess a physical space in the memory of a destination in Second Life. That means that if an in world destination has a capacity of 1000 prims( type of object in Second Life ) then it could be filled with 1000 URLs and its owner would not be able to build or script anything. This can result to banning users from certain areas, if they don't own the land.
-  Second Life has foresighted this problem and has implemented an auto-URL-release. However, this release doesn't work instantly and doesn't have a perfect perfomance.
+  Second Life has foresighted this problem and has implemented an auto-URL-release. However, this release doesn't work instantly and doesn't have a perfect performance.
 
 ### SCRIPTING AND BUILDING IN SECOND LIFE
 
