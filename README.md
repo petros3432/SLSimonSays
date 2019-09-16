@@ -15,9 +15,9 @@ Simon Says is a simple yet entertaining game that test player's concentration an
 **Rules are Simple**
 - The game displays one random color sequence
 - User should click all the colors of the sequence in the correct order.
-- If user's guess is right then the old color sequence is displayed again but a new color entry is added to its end.
+- If the user's guess is right then the old color sequence is displayed again, but a new color entry is added to its end.
 - This way the game becomes much harder even after a few rounds.
-- When the user makes a wrong guess of a color then the game's round ends and the score of the user is being displayed.
+- When the user makes a wrong guess of a color, then the game round ends and the score of the user is being displayed.
 - Score corresponds to the highest number of colors of a sequence that the user has pressed correctly in the entire round.
 
 ## COMPONENTS
@@ -51,7 +51,7 @@ generated URL. It generates the first URL and generates a new one with pressing 
 - 1 custom made texture with "i" on it.
 
 ## INSTALLATION
-The object that represents the project of Simon Says exists in Second Life Marketplacei in this link . It is off-charge and contains both the physical objects in-Second Life and the wanted scripts. The scripts also exist in this GitHub repository and can be used freely. The scripts that are being used are the following:
+The object that represents the project of Simon Says exists in Second Life Marketplace in this link . It is off-charge and contains both the physical objects in-Second Life and the wanted scripts. The scripts also exist in this GitHub repository and can be used freely. The scripts that are being used are the following:
 - parent_v8.c
 - CONNECTOR_V4.C
 - RED_v4.c
@@ -65,7 +65,7 @@ The object that represents the project of Simon Says exists in Second Life Marke
 These scripts exist both in GitHub and in the object from the Marketplace.
 If you desire to use them without downloading the object from Second Life's Marketplace, then you have to copy the scripts and paste them each one to their one object.
 
-You can choose the colors and the shapes of the objects and the objects doesn't have neither to be touching one-another nor to be Linked. That's because this scripts uses channel communication and not LINK-message. However, objects should be placed in the same Region and maybe same Destination.
+You can choose the colors and the shapes of the objects and the objects doesn't have neither, to be touching one-another nor to be Linked. That's because these scripts use channel communication and not LINK-message. However, objects should be placed in the same Region and maybe same Destination.
 
 Additionaly, in script STARTRESET.c you have to delete these lines
 ```
@@ -77,8 +77,8 @@ llSetTexture(texture2, 1);
 ```
 **OR**
 Import the images START.png and RESET.png into the object that would contain STARTRESET_v2.c script, as textures. You can add the images 
-to use them as textures by paying 10L$ ( Second Life's standard price for uploading ) or free to use them ***only temporarily***.
-To add the textures in the inventory of object, simply Right-click on object>Edit>Content>Drag & Drop the textures from your inventory to the folder Contains of the object.
+to use them as textures by paying 10L$ ( Second Life's standard price for uploading, 0.10 US Dollars ) or free, to use them ***only temporarily***(After closing the viewer, the textures will be gone).
+To add the textures in the inventory of an object, simply Right-click on object>Edit>Content>Drag & Drop the textures from your inventory to the folder Contains of the object.
 These apply also for the script INFO_v1.c where the lines 
 ```
 string texture1 = "INFOimg";
@@ -87,7 +87,6 @@ llSetTexture(texture1, 0);
 should be removed
 **OR** 
 You can do the previous steps for adding the image INFO.png as a texture to the object which contains the script INFO_v1.c.
-
 
 ## HOW TO USE
 
@@ -110,40 +109,40 @@ If user's guess of the color sequence is correct then the color sequence can be 
 GREEN, BLUE, BLUE, RED, GREEN
 ```
 
-- Then, the user has to import his guess of the displayed color sequence. In-world Second Life this is possible with touching the correct color buttons in the correct order. When the user touches the last color button of his guessed color sequence, if it's correct the next color sequence will start automatically. Meanwhile, the game will communicate with the user through chat informing him that his guess was indeed correct, displaying the "CORRECT" message.
+- Then, the user has to import his guess of the displayed color sequence. In-world Second Life, this is possible with touching the correct color buttons in the correct order. When the user touches the last color button of his guessed color sequence, if it's correct the next color sequence will start automatically. Meanwhile, the game will communicate with the user through chat informing him that his guess was indeed correct, displaying the "CORRECT" message.
 
-- If user did a mistake throughout his answer, the game will instantly stop, it would be GAME OVER and a proper message will be displayed through chat.
+- If user made a mistake throughout his answer, the game will instantly stop, it would be GAME OVER and a proper message will be displayed through chat.
 
-- To start again the game all user has to do is to press again the START button and a new round of game will initialize.
+- To start again the game all that user has to do is to press again the START button and a new round of game will initialize.
     
-- During a round of the game, user has the ability to reset( soft reset actually ) the game and idle it. This is the equivalent of a GAME OVER. It can be achieved while pressing the RESET button that is visible when the START button has been pressed.
+- During a round of the game, the user has the ability to reset( soft reset actually ) the game and idle it. This is the equivalent of a GAME OVER. It can be achieved while pressing the RESET button that is visible when the START button has been pressed.
 
-- When the user ends his gameplay, it is advised to hard reset the game so any generated URLs can be released. Even though this type of gameplay doesn't use the system's ability for two-way communication through dynamic generated URLs, the object generates automatically, one and only URL at the very beginning of its life, when someone pastes it in-world. The significance of releasing URLs is further analyzed in the WARNING sector, further down the text. This hard reset can be achieved by pressing the rectangular beige button at the lower right corner of the in-game tablet.
+- When the user ends his gameplay, it is advised to hard reset the game so any generated URLs can be released. Even though this type of gameplay doesn't use the system's ability for two-way communication through dynamically generated URLs, the object generates automatically, one and only URL at the very beginning of its life, when someone pastes it in-world. The significance of releasing URLs is further analyzed in the WARNING sector, further down the text. This hard reset can be achieved by pressing the rectangular beige button at the lower right corner of the in-game tablet.
 
 ### Web Browser
 
 - First of all paste the Linked object in-world. Instantly the object will communicate with you through chat and will provide a URL.
 
-- Click the URL that is being displayed in chat. It should look something like this
+- Click the URL that is being displayed in the chat. It should look something like this
 
 ```
 e.g http://sim10186.agni.lindenlab.com:12043/cap/469d084a-e1ab-2e35-6e6d-95c3d6f464b0 
 ```
 It will open a window in Second Life with a QR code.
+
 #### Smartphone Web Browser
 
-- Scan the QR code with your smartphone's camera. It should open a window of your default Web Browser with a simple interface of a START button and 4 colored buttons The basic rules of the game are the same with the in-game gameplay.
+- Scan the QR code with your smartphone's camera. It should open a window in your default Web Browser with a simple interface of a START button and 4 colored buttons The basic rules of the game are the same with the in-game gameplay.
 
-- A colored sequence will be generated in Second Life and it will be sent through URL, to the opened window. There, the 4 buttons will flash accordingly and the user should press the buttons in the correct order.
+- A colored sequence will be generated in Second Life and it will be sent through the URL, to the opened window. There, the 4 buttons will flash accordingly and the user should press the buttons in the correct order.
 
-- If the user presses a wrong button then the game is finished, GAME OVER will be displayed and also the final score will be visible.
+- If the user presses a wrong button, then the game is finished, GAME OVER will be displayed and also the final score will be visible.
 
 - To initialize a new game all the user has to do is to press START GAME into the smartphone Web Browser. Note that with this feature the smartphone can be used not only with the utility of a controller that goes with the second life, but also totally independently.
 
-- In this state the smartphone can be operating wherever the user desires to if only it utilizes with a stable internet connection.
+- In this state the smartphone can be operated wherever the user desires to if only it utilizes with a stable internet connection.
 
-- The generated URL and also the generated QR code can be copied and shared to whomever the user wants but only one user can be operating the game at a time.
-
+- The generated URL and also the generated QR code can be copied and shared with whomever the user wants, but only one user can be operating the game at a time.
 
 #### Any other kind of Web Browser
 
@@ -161,9 +160,9 @@ e.g http://siwonsimon.000webhostapp.com/siwonsimon.html?http://sim10186.agni.lin
 ```
 - To initialize a new game all the user has to do is to press START GAME into Web Browser. Note that with this feature the smarthphone can be used not only with the utility of a controller that goes with the second life, but also totally independently.
 
-- In this state the web browser can be operating wherever the user desires to if only it utilizes with a stable internet connection.
+- In this state the web browser can be operated wherever the user desires to if only it utilizes with a stable internet connection.
 
-- The generated URL can be copied and shared to whomever the user wants but only one user can be operating the game at a time.
+- The generated URL can be copied and shared with whomever the user wants, but only one user can be operating the game at a time.
 
 - The Second Life script should be operating the whole time.
 
@@ -171,26 +170,21 @@ e.g http://siwonsimon.000webhostapp.com/siwonsimon.html?http://sim10186.agni.lin
 
 - To generate a new URL the user has to press the triangle button( Δ ) at the bottom-center of the tablet in Second Life. This will generate a new URL and it will display it through in-game chat, like before. From there, the previous steps in sectors of **Smartphone Web Browser** and  **Any other kind of Web Browser** are applicable.
 
-
 ## IMPORTANT
 
 ### URL RELEASING
 
-  It is advised that URLs should be released before a new one is generated or after the terminal of gameplay time. That's because URLs tend to exist even after
-the game is closed and the object has been deleted. They also possess a physical space in the memory of a destination in Second Life. That means that if 
-an in world destination has a capacity of 1000 prims( type of object in Second Life ) then it could be filled with 1000 URLs and its owner would not be able
-to build or script anything. This can result to banning users from certain areas, if they don't own the land.
-  Second Life has foresighted this problem and has implemented an auto-URL-releaser. However, this releaser doesn't work instantly and doesn't have perfect
-perfomance.
+  It is advised that URLs should be released before a new one is generated or after the termination of gameplay time. That's because URLs tend to exist even after the game is closed and the object has been deleted. They also possess a physical space in the memory of a destination in Second Life. That means that if an in world destination has a capacity of 1000 prims( type of object in Second Life ) then it could be filled with 1000 URLs and its owner would not be able to build or script anything. This can result to banning users from certain areas, if they don't own the land.
+  Second Life has foresighted this problem and has implemented an auto-URL-release. However, this release doesn't work instantly and doesn't have a perfect perfomance.
 
 ### SCRIPTING AND BUILDING IN SECOND LIFE
 
-  If you don't own land or don't rend land in Second Life, you can open, modify and copy this project in a destination in Second Life that 
-scripting and building are permitted.
+  If you don't own land or don't rend land in Second Life, you can open, modify and copy this project in a destination in Second Life that scripting and building are permitted.
+
 
 ### DEBUGGING
 
-For academic and research puproses i created a second HTML page which adds two-features and helps with debugging and/or development of the project. It adds one "LOAD" button which helps to manually load the Second Life's response, through the sl.php file. It also includes one "SCREEN" sector which displays the data that has been loaded from there. The reason behind this is the use of synchronous AJAX and the tendency of Web Browsers to strive away from it in the near future.
+For academic and research purposes I created a second HTML page which adds two-features and helps with debugging and/or development of the project. It adds one "LOAD" button which helps to manually load the Second Life's response, through the sl.php file. It also includes one "SCREEN" sector, which displays the data that has been loaded from there. The reason behind this is the use of synchronous AJAX and the tendency of Web Browsers to strive away from it in the near future.
 
 The link for this page is 
 <http://siwonsimon.000webhostapp.com/siwonsimon_debugging.html>
