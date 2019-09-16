@@ -188,6 +188,13 @@ perfomance.
   If you don't own land or don't rend land in Second Life, you can open, modify and copy this project in a destination in Second Life that 
 scripting and building are permitted.
 
+### DEBUGGING
+
+For academic and research puproses i created a second HTML page which adds two-features and helps with debugging and/or development of the project. It adds one "LOAD" button which helps to manually load the Second Life's response, through the sl.php file. It also includes one "SCREEN" sector which displays the data that has been loaded from there. The reason behind this is the use of synchronous AJAX and the tendency of Web Browsers to strive away from it in the near future.
+
+The link for this page is 
+siwonsimon.000webhostapp.com/siwonsimon_debugging.html
+
 ### USE OF PRODUCT
 
 Copyright (c) 2011-2017 GitHub Inc.
