@@ -8,6 +8,9 @@ This project uses the HTML page ***http://siwonsimon.000webhostapp.com/siwonsimo
 also a TXT file. All code of these files and also all scripts that are used in this project in Second Life are available for free 
 in this github page ***https://github.com/petros3432/SLSimonSays***.
 
+**IF YOU WANT TO EDIT any of the components of the game at its own, Right Click on object>Edit>Unlink.
+Every button would be able, then to be modified and copied , and its script also.**
+
 ## GAME RULES
 
 Simon Says is a simple yet entertaining game that test player's concentration and memory.
