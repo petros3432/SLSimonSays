@@ -63,7 +63,11 @@ The object that represents the project of Simon Says exists in Second Life Marke
 - INFO_v1.c
 
 These scripts exist both in GitHub and in the object from the Marketplace.
-If you desire to use them without downloading the object from Second Life's Marketplace, then you have to copy the scripts and paste them each one to their one object. Additionaly, in script STARTRESET.c you have to delete these lines
+If you desire to use them without downloading the object from Second Life's Marketplace, then you have to copy the scripts and paste them each one to their one object.
+
+You can choose the colors and the shapes of the objects and the objects doesn't have neither to be touching one-another nor to be Linked. That's because this scripts uses channel communication and not LINK-message. However, objects should be placed in the same Region and maybe same Destination.
+
+Additionaly, in script STARTRESET.c you have to delete these lines
 ```
 string texture1 = "STARTimg";
 string texture2 = "RESETimg";
@@ -83,6 +87,7 @@ llSetTexture(texture1, 0);
 should be removed
 **OR** 
 You can do the previous steps for adding the image INFO.png as a texture to the object which contains the script INFO_v1.c.
+
 
 ## HOW TO USE
 
