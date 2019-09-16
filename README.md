@@ -54,7 +54,7 @@ generated URL. It generates the first URL and generates a new one with pressing 
 - 1 custom made texture with "i" on it.
 
 ## INSTALLATION
-The object that represents the project of Simon Says exists in Second Life Marketplace in this link . It is off-charge and contains both the physical objects in-Second Life and the wanted scripts. The scripts also exist in this GitHub repository and can be used freely. The scripts that are being used are the following:
+The object that represents the project of Simon Says exists in Second Life Marketplace in this link https://marketplace.secondlife.com/p/Simon-Saysv3/18036281. It is off-charge and contains both the physical objects in-Second Life and the wanted scripts. The scripts also exist in this GitHub repository and can be used freely. The scripts that are being used are the following:
 - parent_v8.c
 - CONNECTOR_V4.C
 - RED_v4.c
