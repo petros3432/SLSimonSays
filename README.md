@@ -1,4 +1,5 @@
-# SLSimonSays
+# SLSimonSays Project
+## Instruction Manual
 This package of objects and scripts provides the classic game Simon Says but with a twist...
 You have the opportunity to interact with the main tablet of the board game and play solely in-world of Second Life.
 
@@ -48,6 +49,21 @@ generated URL. It generates the first URL and generates a new one with pressing 
 >CONTAINS
 - 1 script "INFO" that provides useful informatin about the project and a "how to use it" guide.
 - 1 custom made texture with "i" on it.
+
+## INSTALLATION
+The object that represents the project of Simon Says exists in Second Life Marketplacei in this link . It is off-charge and contains both the physical objects in-Second Life and the wanted scripts. The scripts also exist in this GitHub repository and can be used freely. The scripts that are being used are the following:
+- parent_v8.c
+- CONNECTOR_V4.C
+- RED_v4.c
+- GREEN_v4.c
+- BLUE_v4.c
+- YELLOW_v4.c
+- STARTRESET_v2.c
+- HARD_RESET.c
+- INFO_v1.c
+
+These scripts exist both in GitHub and in the object from the Marketplace.
+If you desire to use them without downloading the object from Second Life's Marketplace, then you have to copy the scripts and paste them each one to their one object. Additionaly, in script STARTRESET.c you have to delete this line
 
 
 ## HOW TO USE
