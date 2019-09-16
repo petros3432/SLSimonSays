@@ -63,8 +63,26 @@ The object that represents the project of Simon Says exists in Second Life Marke
 - INFO_v1.c
 
 These scripts exist both in GitHub and in the object from the Marketplace.
-If you desire to use them without downloading the object from Second Life's Marketplace, then you have to copy the scripts and paste them each one to their one object. Additionaly, in script STARTRESET.c you have to delete this line
-
+If you desire to use them without downloading the object from Second Life's Marketplace, then you have to copy the scripts and paste them each one to their one object. Additionaly, in script STARTRESET.c you have to delete these lines
+```
+string texture1 = "STARTimg";
+string texture2 = "RESETimg";
+llSetTexture(texture1, 1);
+llSetTexture(texture2, 1);
+llSetTexture(texture2, 1);
+```
+**OR**
+Import the images START.png and RESET.png into the object that would contain STARTRESET_v2.c script, as textures. You can add the images 
+to use them as textures by paying 10L$ ( Second Life's standard price for uploading ) or free to use them ***only temporarily***.
+To add the textures in the inventory of object, simply Right-click on object>Edit>Content>Drag & Drop the textures from your inventory to the folder Contains of the object.
+These apply also for the script INFO_v1.c where the lines 
+```
+string texture1 = "INFOimg";
+llSetTexture(texture1, 0);
+```
+should be removed
+**OR** 
+You can do the previous steps for adding the image INFO.png as a texture to the object which contains the script INFO_v1.c.
 
 ## HOW TO USE
 
