@@ -195,6 +195,16 @@ For academic and research puproses i created a second HTML page which adds two-f
 The link for this page is 
 <http://siwonsimon.000webhostapp.com/siwonsimon_debugging.html>
 
+For using this page with Second Life you have to manually change the CONNECTOR_v4.c script and **CHANGE**
+```
+string baseurl="http://siwonsimon.000webhostapp.com/siwonsimon.html?";
+```
+**TO**
+```
+string baseurl="http://siwonsimon.000webhostapp.com/siwonsimon_debugging.html?";
+```
+> Question mark (**?**) should not be omitted.
+
 ### USE OF PRODUCT
 
 Copyright (c) 2011-2017 GitHub Inc.
