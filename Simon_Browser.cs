@@ -30,6 +30,9 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         WebBrowser1.Navigate(TextBox1.Text)
     End Sub
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox1.AppendText("http://siwonsimon.000webhostapp.com/ARDUINO.html?")
+    End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Text = "Web Browser"
